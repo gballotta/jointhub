@@ -57,10 +57,7 @@ Route::get('coworkers', function()
 	return View::make('workinprogress');
 });
 
-Route::get('coworking/prezzi', function()
-{
-	return View::make('workinprogress');
-});
+Route::get('coworking/prezzi', 'CowoController@mostraprezzi');
 
 Route::get('coworking/faq', function()
 {
