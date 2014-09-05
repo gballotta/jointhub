@@ -42,6 +42,7 @@
 			<li><a href="/progetti" class="bg-hover-color">Made in JointHub</a></li>
 			<li><a href="/blog" class="bg-hover-color">Blog</a></li>
 			<li><a href="/contatti" class="bg-hover-color">Contatti</a></li>
+			<li><a href="/ingresso" class="bg-hover-color">Staff</a></li>
 		</ul>
 		
 		<!-- Search Form (xs) -->

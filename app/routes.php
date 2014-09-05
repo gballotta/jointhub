@@ -18,6 +18,9 @@ Route::get('/', function()
 	return View::make('homepage');
 });
 
+Route::get('ingresso', 'LoginController@index');
+Route::post('ingresso', 'LoginController@logghin');
+
 Route::get('corsi/spazio', function()
 {
 	return View::make('corsi.spazio');
