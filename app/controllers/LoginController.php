@@ -13,7 +13,14 @@ class LoginController extends \BaseController {
 	}
 	
 	public function logghin() {
-		echo 'Ha provato a collegarsi ' . Input::get('username') . ' con la password ' .Input::get('password'); 
+		$credenziali = array('username' => Input::get('username'),
+		                     'password' => Input::get('password'));
+		
+		if(Auth::attempt($credenziali)) {
+			return Redirect::to('/');
+		} else {
+			return View::make('login')->with('sbaglio', 1);
+		}
 	}
 
 }

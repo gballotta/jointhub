@@ -21,6 +21,10 @@
 						                                           'placeholder' => 'Password')) }}
 					</div>
 					<br>
+					@if( isset($sbaglio) )
+					<p class="text-danger">Credenziali di accesso sbagliate</p>
+					<br>
+					@endif
 					{{ Form::submit('Accedi', array( 'class' => 'btn btn-color' )) }}
 					<br>
 				</form>
