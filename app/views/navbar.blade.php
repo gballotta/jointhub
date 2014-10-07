@@ -42,7 +42,21 @@
 			<li><a href="/progetti" class="bg-hover-color">Made in JointHub</a></li>
 			<li><a href="/blog" class="bg-hover-color">Blog</a></li>
 			<li><a href="/contatti" class="bg-hover-color">Contatti</a></li>
+			@if( Auth::check() )
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">{{ Auth::user()->username; }} <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="/staff" class="bg-hover-color">Staff</a></li>
+					<li><a href="/persons" class="bg-hover-color">Anagrafica</a></li>
+					<li><a href="/CowoPrices" class="bg-hover-color">Prezzi Coworking</a></li>
+					<li><a href="/courses" class="bg-hover-color">Corsi</a></li>
+					<li><a href="/dates" class="bg-hover-color">Date Eventi</a></li>
+					<li><a href="/logout" class="bg-hover-color">Logout</a></li>
+				</ul>
+			</li>
+			@else
 			<li><a href="/ingresso" class="bg-hover-color">Staff</a></li>
+			@endif
 		</ul>
 		
 		<!-- Search Form (xs) -->

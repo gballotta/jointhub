@@ -22,5 +22,10 @@ class LoginController extends \BaseController {
 			return View::make('login')->with('sbaglio', 1);
 		}
 	}
+	
+	public function logout() {
+		Auth::logout();
+		return Redirect::to('/');
+	}
 
 }

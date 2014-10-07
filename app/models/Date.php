@@ -6,4 +6,8 @@ class Date extends Eloquent {
 		return $this->belongsTo('Course');
 	}
 	
+	public static $validationRules = array(
+		'course_id' => 'required|numeric',
+		'data' => 'required|date'
+	);
 }

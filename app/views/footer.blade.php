@@ -7,7 +7,7 @@
 				<div class="content">
 					<p>
 					Montecchio di Vallefoglia (PU)<br />
-					Via Pio la Torre, xx<br />
+					Via Pio la Torre, 15/H<br />
 					Phone: +0 000 000 00 00<br />
 					Fax: +0 000 000 00 00<br />
 					Email: <a href="#">info@jointhub.it</a>

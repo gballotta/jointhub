@@ -21,10 +21,15 @@ Route::get('/', function()
 Route::get('ingresso', 'LoginController@index');
 Route::post('ingresso', 'LoginController@logghin');
 
+Route::resource('staff', 'StaffController');
+Route::resource('persons', 'PersonController');
+
 Route::get('corsi/spazio', function()
 {
 	return View::make('corsi.spazio');
 });
+
+Route::get('logout', 'LoginController@logout');
 
 Route::resource('corsi', 'CorsiController');
 
@@ -81,3 +86,9 @@ Route::get('contatti', function()
 {
 	return View::make('workinprogress');
 });
+
+Route::resource('CowoPrices', 'CowoPricesController');
+
+Route::resource('courses', 'CoursesController');
+
+Route::resource('dates', 'DatesController');
