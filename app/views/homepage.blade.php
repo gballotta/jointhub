@@ -7,57 +7,13 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<div class="carousel slide" id="carousel-715060">
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#carousel-715060">
-					</li>
-					<li data-slide-to="1" data-target="#carousel-715060">
-					</li>
-					<li data-slide-to="2" data-target="#carousel-715060">
-					</li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="item active">
-						<img alt="" src="/img/grandopening_banner.jpg" />
-						<div class="carousel-caption">
-							<h4 class="text-primary">
-								OPEN DAY
-							</h4>
-							<p class="text-primary">
-								Sabato 11 Ottobre 2014<br>Siete tutti invitati!
-							</p>
-						</div>
-					</div>
-					<div class="item">
-						<img alt="" src="/img/coworking_banner.jpg" />
-						<div class="carousel-caption">
-							<h4 class="text-primary">
-								Coworking
-							</h4>
-							<p class="text-primary">
-								Durante il giorno, Jointhub è un coworking<br>
-								<a href="/coworking/cosa">
-									<button type="button" class="btn btn-primary btn-lg">Scopri</button>
-								</a>
-							</p>
-						</div>
-					</div>
-					<div class="item">
-						<img alt="" src="/img/corsi_banner.jpg" />
-						<div class="carousel-caption">
-							<h4>
-								Corsi
-							</h4>
-							<p>
-								Jointhub propone corsi a tutti i livelli<br>
-								<a href="/corsi">
-									<button type="button" class="btn btn-primary btn-lg">Scopri</button>
-								</a>
-							</p>
-						</div>
-					</div>
-				</div> <a class="left carousel-control" href="#carousel-715060" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-715060" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-			</div>
+			<img alt="140x140" src="/img/grandopening_banner.jpg" />
+			<h3 class="text-center">
+				SIETE TUTTI INVITATI ALL'APERTURA DEL NOSTRO SPAZIO!<br/>
+			</h3>
+			<h4 class="text-center">
+				Sabato 11 Ottobre - Dalle ore 16:00
+			</h4>
 		</div>
 	</div>
 	<div class="row clearfix">
@@ -66,9 +22,74 @@
 				<span class="border-color">Jointhub</span>
 			</h2> 
 			<p>
-				Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+				<strong>Jointhub</strong> nasce dalla nostra idea di creare uno spazio dove le persone possono 
+				condividere la loro esperienza e la loro professionalità.<br/><br/>
+				Da una parte c'è il nostro <strong>Coworking</strong>: un posto dove lavorare e mettere le proprie competenze a 
+				reciproca disposizione per perseguire progetti comuni e cogliere nuove opportunità.<br/><br/>
+				A fianco di questo, ma non meno importante, un <strong>Programma Corsi</strong> in costante evoluzione per dare 
+				la possibilità di acquisire conoscenze utili a livello professionale (e non solo).<br/><br/>
+				Ma questo è solo l'inizio. Quello che vogliamo è che le persone, sia i coworkers che chi segue 
+				o tiene i nostri corsi, ci forniscano <strong>idee</strong> per far crescere il nostro piccolo spazio.<br/><br/>
+				E farlo diventare ... non lo sappiamo, ma vogliamo aspettarci di tutto!
 			</p>
 		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h2 class="headline text-color">
+				<span class="border-color">I nostri servizi</span>
+			</h2> 
+		</div>
+		<div class="row services-p">
+          <div class="col-sm-4">
+            <!-- Service Item #1 -->
+            <div class="services-item">
+              <i class="fa fa-gear fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Coworking</h3>
+                <p class="text-muted">
+                  Uno spazio di lavoro condiviso dove si può affittare una scrivania per il tempo che vi serve, 
+                  lavorando a contatto con altre persone e con la possibilità di usare tutte le attrezzature 
+                  di un vero ufficio.
+                </p>
+                <a href="coworking/prezzi">
+                	<button type="button" class="btn btn-primary btn-default">Scopri</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <!-- Service Item #2 -->
+            <div class="services-item">
+              <i class="fa fa-gear fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Corsi</h3>
+                <p class="text-muted">
+                  Un programma corsi sempre più ricco, con tanti argomenti e a tutti i livelli.
+                </p>
+                <a href="corsi">
+                	<button type="button" class="btn btn-primary btn-default">Scopri</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <!-- Service Item #3 -->
+            <div class="services-item">
+              <i class="fa fa-gear fa-2x text-color"></i>
+              <div class="services-item-desc">
+                <h3 class="primary-font">Eventi</h3>
+                <p class="text-muted">
+                  Il nostro spazio è a disposizione anche per l'organizzazione di eventi come presentazioni, 
+                  riunioni aziendali, corsi privati di categorie professionali e altro.
+                </p>
+                <a href="corsi/spazio">
+                	<button type="button" class="btn btn-primary btn-default">Il nostro spazio</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 	</div>
 </div>
 

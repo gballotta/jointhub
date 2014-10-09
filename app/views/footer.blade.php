@@ -8,8 +8,7 @@
 					<p>
 					Montecchio di Vallefoglia (PU)<br />
 					Via Pio la Torre, 15/H<br />
-					Phone: +0 000 000 00 00<br />
-					Fax: +0 000 000 00 00<br />
+					Phone: +39 0721 490165<br />
 					Email: <a href="#">info@jointhub.it</a>
 					</p>
 				</div>
@@ -20,9 +19,9 @@
 				<div class="content social">
 					<p>Ci trovi anche su:</p>
 					<ul class="list-inline">
-						<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" class="plus"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.facebook.com/pages/Jointhub/1547938888754028?ref=ts&fref=ts" class="facebook"><i class="fa fa-facebook"></i></a></li>
+						<!--<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>-->
+						<!--<li><a href="#" class="plus"><i class="fa fa-google-plus"></i></a></li>-->
 					</ul>
 					<div class="clearfix"></div>
 				</div>
@@ -36,7 +35,7 @@
 		<!-- Copyrights -->
 		<div class="row">
 			<div class="col-sm-12">
-				<p>&copy; Mosaic 2014. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+				<p>&copy; Jointhub - un marchio di Computer Store s.n.c. - 2014.</p>
 			</div>
 		</div>
 	</div>

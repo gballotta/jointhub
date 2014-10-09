@@ -29,6 +29,11 @@ Route::get('corsi/spazio', function()
 	return View::make('corsi.spazio');
 });
 
+Route::get('corsi/faq', function()
+{
+	return View::make('corsi.faq');
+});
+
 Route::get('logout', 'LoginController@logout');
 
 Route::resource('corsi', 'CorsiController');
