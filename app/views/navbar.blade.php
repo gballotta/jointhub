@@ -40,8 +40,6 @@
 				</ul>
 			</li>
 			<li><a href="/progetti" class="bg-hover-color">Made in JointHub</a></li>
-			<li><a href="/blog" class="bg-hover-color">Blog</a></li>
-			<li><a href="/contatti" class="bg-hover-color">Contatti</a></li>
 			@if( Auth::check() )
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle bg-hover-color" data-toggle="dropdown">{{ Auth::user()->username; }} <b class="caret"></b></a>

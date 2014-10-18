@@ -18,6 +18,11 @@ Route::get('/', function()
 	return View::make('homepage');
 });
 
+Route::get('provagratuita', function()
+{
+	return View::make('freetrial');
+});
+
 Route::get('ingresso', 'LoginController@index');
 Route::post('ingresso', 'LoginController@logghin');
 

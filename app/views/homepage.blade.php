@@ -7,13 +7,9 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<img alt="140x140" src="/img/grandopening_banner.jpg" />
-			<h3 class="text-center">
-				SIETE TUTTI INVITATI ALL'APERTURA DEL NOSTRO SPAZIO!<br/>
-			</h3>
-			<h4 class="text-center">
-				Sabato 11 Ottobre - Dalle ore 16:00
-			</h4>
+			<a href="/provagratuita">
+				<img alt="140x140" src="/img/free_trial.png" />
+			</a>
 		</div>
 	</div>
 	<div class="row clearfix">
