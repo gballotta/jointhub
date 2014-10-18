@@ -57,6 +57,7 @@ class CoursesController extends \BaseController {
 			$evento->max_partecipanti = Input::get('max_partecipanti');
 			$evento->prezzo = Input::get('prezzo');
 			$evento->attivo = Input::get('attivo');
+			$evento->tags = Input::get('tags');
 			if(is_null($evento->attivo)) { $evento->attivo = 0; }
 			$evento->save();
 			Session::flash('message', 'Nuovo evento creato');
@@ -123,6 +124,7 @@ class CoursesController extends \BaseController {
 			$evento->max_partecipanti = Input::get('max_partecipanti');
 			$evento->prezzo = Input::get('prezzo');
 			$evento->attivo = Input::get('attivo');
+			$evento->tags = Input::get('tags');
 			if(is_null($evento->attivo)) { $evento->attivo = 0; }
 			$evento->save();
 			Session::flash('message', 'Evento modificato');

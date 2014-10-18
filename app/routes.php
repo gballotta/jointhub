@@ -50,10 +50,7 @@ Route::get('corsi/calendario', function()
 	
 });
 
-Route::get('corsi/programma', function()
-{
-	return View::make('workinprogress');
-});
+Route::get('elencocorsi', 'ElencocorsiController@index');
 
 Route::get('corsi/tuo', function()
 {

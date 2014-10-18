@@ -17,6 +17,7 @@ class Course extends Eloquent {
 			'min_partecipanti' => 'numeric|min:1',
 			'max_partecipanti' => 'numeric|min:1',
 			'prezzo' => 'required|numeric|min:0',
-			'attivo' => 'numeric|min:0|max:1'
+			'attivo' => 'numeric|min:0|max:1',
+			'tags' => 'required'
 			);
 }

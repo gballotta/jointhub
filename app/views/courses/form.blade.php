@@ -19,6 +19,15 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 		<div class="form-group">
+			{{ Form::label('tags', 'Tags per ricerca (Richiesto) : ') }}
+			{{ Form::text('tags', null, array ('class' => 'form-control',
+												   'placeholder' => 'Tags')) }}
+		</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+		<div class="form-group">
 			{{ Form::label('teacher_id', 'Insegnante : ') }}
 			{{ Form::select('teacher_id', array('1' => 'Maranza', '2' => 'Cheti Manza')) }}
 		</div>
