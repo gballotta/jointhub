@@ -4,17 +4,6 @@
 
 <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-4 column">
-			<img class="img-thumbnail" alt="140x140" src="/img/space_desk.jpg" />
-		</div>
-		<div class="col-md-4 column">
-			<img class="img-thumbnail" alt="140x140" src="/img/space_pcs.jpg" />
-		</div>
-		<div class="col-md-4 column">
-			<img class="img-thumbnail" alt="140x140" src="/img/space_lounge.jpg" />
-		</div>
-	</div>
-	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<h2 class="headline text-color">
 				<span class="border-color">Promozione accesso gratuito</span>
@@ -48,6 +37,17 @@
 				<br/><br/>
 				Per qualsiasi informazione, contattateci pure all'indirizzo a fondo pagina. 
 			</p>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-4 column">
+			<img class="img-thumbnail" alt="140x140" src="/img/space_desk.jpg" />
+		</div>
+		<div class="col-md-4 column">
+			<img class="img-thumbnail" alt="140x140" src="/img/space_pcs.jpg" />
+		</div>
+		<div class="col-md-4 column">
+			<img class="img-thumbnail" alt="140x140" src="/img/space_lounge.jpg" />
 		</div>
 	</div>
 </div>
