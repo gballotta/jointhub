@@ -34,7 +34,7 @@
 					<div class="panel-heading" style="min-height: 300px">
 						<!--<?php var_dump($local);?>-->
 						<div>
-							<p>{{$dataFormattata2}}<br></p>
+							<p>20/12/2014<br></p>
 						</div>
 						<div class="center-block" style="padding-top: 15px">
 							<p class="text-center">
@@ -51,7 +51,7 @@
 							@endif
 						</div>
 						<div style="position:absolute; right: 20px; bottom:25px">
-							<a href="/corsi/show/{{ $corso->id }}">
+							<a href="/corso/{{ $corso->course_id }}">
 								<button type="button" class="btn btn-default">
 									Info e prenotazioni
 								</button>

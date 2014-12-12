@@ -14,7 +14,7 @@ class CorsiController extends \BaseController {
 		$oggi = Carbon::now();
 		$corsi = DB::table('dates')/*->where('data', '>=', $oggi)*/
 		         ->join('courses', 'dates.course_id', '=', 'courses.id')
-				 ->select('dates.id', 'dates.data', 'dates.prenotati','courses.nome',
+				 ->select('dates.id', 'dates.data', 'dates.prenotati', 'dates.course_id','courses.nome',
 				 'courses.tagline', 'courses.tag_workshop', 'courses.tag_corso', 'courses.tag_gratis',
 				 'courses.max_partecipanti')
 		         ->get();

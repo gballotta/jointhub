@@ -33,7 +33,7 @@
 					<li>Stampante multifunzione (per qualche stampa in bianco e nero o scansioni).</li>
 					<li>Una grande lavagna per buttare giù le vostre idee.</li>
 				</ul><br/>
-				Per tutti gli altri servizi consultate pure la sezione <a href="/progetti">MADE IN JOINHUB</a>.
+				Per tutti gli altri servizi consultate pure la sezione <a href="/progetti">MADE IN JOINTHUB</a>.
 				<br/><br/>
 				Per qualsiasi informazione, contattateci pure all'indirizzo a fondo pagina. 
 			</p>

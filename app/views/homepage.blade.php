@@ -7,8 +7,8 @@
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<a href="/provagratuita">
-				<img alt="140x140" src="/img/free_trial.png" />
+			<a href="/corso/14">
+				<img alt="140x140" src="/img/workshop_bmc.png" />
 			</a>
 		</div>
 	</div>
@@ -63,7 +63,7 @@
                 <p class="text-muted">
                   Un programma corsi sempre più ricco, con tanti argomenti e a tutti i livelli.
                 </p>
-                <a href="corsi">
+                <a href="elencocorsi">
                 	<button type="button" class="btn btn-primary btn-default">Scopri</button>
                 </a>
               </div>

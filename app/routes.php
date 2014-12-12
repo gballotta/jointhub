@@ -50,11 +50,13 @@ Route::get('corsi/calendario', function()
 	
 });
 
-Route::get('elencocorsi', 'ElencocorsiController@index');
+Route::get('elencocorsi', 'ElencoCorsiController@index');
 
-Route::get('corsi/tuo', function()
+Route::get('corso/{id}', 'ElencoCorsiController@show');
+
+Route::get('iltuocorso', function()
 {
-	return View::make('workinprogress');
+	return View::make('corsi.iltuocorso');
 });
 
 Route::get('coworking/cosa', function()

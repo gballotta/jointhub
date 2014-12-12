@@ -14,7 +14,7 @@
 				</div>
 			</div>
 			<!-- Social icons -->
-			<div class="col-sm-4 col-sm-offset-4">
+			<div class="col-sm-4">
 				<h3 class="text-color"><span>Go Social</span></h3>
 				<div class="content social">
 					<p>Ci trovi anche su:</p>
@@ -24,6 +24,14 @@
 						<!--<li><a href="#" class="plus"><i class="fa fa-google-plus"></i></a></li>-->
 					</ul>
 					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<h3 class="text-color"><span>Powered by</span></h3>
+				<div class="content">
+					<a href="http://www.computerstoremontecchio.it">
+					<img src="/img/logo_cs_nuovo_2.png" class="img-responsive" alt="Responsive image">
+					</a>
 				</div>
 			</div>
 		</div>

@@ -10,8 +10,8 @@
 ?>
 
 <div class="container">
-	<h1 class="text-color">{{$corso->corsoNome}}</h1>
-	<h3>{{$corso->corsoTagline}}</h3>
+	<h1 class="text-color">{{$corso->nomecorso}}</h1>
+	<h3>{{$corso->tagline}}</h3>
 	<br>
 	<p>
 		<span class="label label-info">
@@ -24,13 +24,13 @@
 		</span>
 	</p><br>
 	<p>{{ $dataFormattata2 }}</p>
-	<p>Numero minimo partecipanti : {{ $corso->corsoMin }}</p>
-	<p>Numero massimo partecipanti : {{ $corso->corsoMax }}</p>
+	<p>Numero minimo partecipanti : {{ $corso->minpartecipanti }}</p>
+	<p>Numero massimo partecipanti : {{ $corso->maxpartecipanti }}</p>
 	<p>
-		@if($corso->corsoPrezzo == 0)
+		@if($corso->prezzo == 0)
 		Evento gratuito
 		@else
-		Costo iscrizione : {{ $corso->corsoPrezzo }} Euro
+		Costo iscrizione : {{ $corso->prezzo }} Euro
 		@endif
 	</p>
 	<br>
@@ -39,12 +39,12 @@
 	<h2 class="headline text-color">
 		<span class="border-color">Descrizione</span>
 	</h2>
-	<p class="text-justify">{{ $corso->corsoDescrizione }}</p>
+	<p class="text-justify">{{ $corso->programmabase }}</p>
 	<br><br>
 	<h2 class="headline text-color">
 		<span class="border-color">Programma</span>
 	</h2>
-	<p class="text-justify">{{ $corso->corsoProgramma }}</p>
+	<p class="text-justify">{{ $corso->programmadettagliato }}</p>
 </div>
 
 @endsection
