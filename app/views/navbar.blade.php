@@ -24,7 +24,6 @@
 					<li><a href="/corsi/spazio" class="bg-hover-color">Il nostro spazio</a></li>
 					<li><a href="/corsi" class="bg-hover-color">Calendario corsi</a></li>
 					<li><a href="/elencocorsi" class="bg-hover-color">Programma corsi</a></li>
-					<li><a href="/corsi" class="bg-hover-color">Iscrizione</a></li>
 					<li><a href="/iltuocorso" class="bg-hover-color">Crea il tuo corso/evento</a></li>
 					<li><a href="/corsi/faq" class="bg-hover-color">Domande frequenti</a></li>
 				</ul>
