@@ -3,6 +3,8 @@
 @section('content')
 
 <div class="container">
+	<img class="img-responsive center-block" src="/img/corso_{{$corso->id}}.jpg">
+	<br/>
 	<h1 class="text-color">{{$corso->nome}}</h1>
 	<h3>{{$corso->tagline}}</h3>
 	<br>

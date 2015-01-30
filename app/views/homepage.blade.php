@@ -6,11 +6,7 @@
 
 <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<a href="/corso/11">
-				<img alt="140x140" src="/img/corsogazze.jpg" class="img-responsive center-block"/>
-			</a>
-		</div>
+		@include('homebanner')
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">

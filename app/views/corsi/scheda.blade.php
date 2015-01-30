@@ -10,6 +10,7 @@
 ?>
 
 <div class="container">
+	
 	<h1 class="text-color">{{$corso->nomecorso}}</h1>
 	<h3>{{$corso->tagline}}</h3>
 	<br>
